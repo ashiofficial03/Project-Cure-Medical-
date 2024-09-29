@@ -39,10 +39,10 @@ public class CureWebpage {
 		driver.findElement(By.id("btn-login")).click();
 		Thread.sleep(2000);
 		//Verifying second page
-		//Assert.assertEquals(driver.getCurrentUrl(), "https://katalon-demo-cura.herokuapp.com/#appointment");
-		driver.findElement(By.id("sidebar-wrapper")).click();
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("//a[@href=\"authenticate.php?logout\"]")).click();
-		Thread.sleep(2000);
+		Assert.assertEquals(driver.getCurrentUrl(), "https://katalon-demo-cura.herokuapp.com/#appointment");
+			//driver.findElement(By.id("sidebar-wrapper")).click();
+			//Thread.sleep(2000);
+			//driver.findElement(By.xpath("//a[@href=\"authenticate.php?logout\"]")).click();
+			//hread.sleep(2000);
 	}
 }
