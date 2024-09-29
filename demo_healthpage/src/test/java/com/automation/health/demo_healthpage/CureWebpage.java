@@ -2,6 +2,9 @@ package com.automation.health.demo_healthpage;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -22,6 +25,7 @@ public class CureWebpage {
 		options=new ChromeOptions();
 		options.addArguments("--start-maximized");
 		driver=new ChromeDriver(options);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 	}
 	@Test(priority=1)
 	@Severity(SeverityLevel.BLOCKER)
