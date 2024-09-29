@@ -6,7 +6,7 @@
       <class name="com.automation.health.demo_healthpage.CureWebpage">
         <methods>
           <include name="Setup"/>
-          <include name="loginwithinvalid"/>
+          <include name="loginwitvalid"/>
         </methods>
       </class> <!-- com.automation.health.demo_healthpage.CureWebpage -->
     </classes>

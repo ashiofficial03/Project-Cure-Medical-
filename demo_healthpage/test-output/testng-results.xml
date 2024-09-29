@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-27T16:52:05 IST" name="Default suite" finished-at="2024-09-27T16:52:11 IST" duration-ms="6110">
+  <suite started-at="2024-09-29T18:17:22 IST" name="Suite" finished-at="2024-09-29T18:17:30 IST" duration-ms="7721">
     <groups>
     </groups>
-    <test started-at="2024-09-27T16:52:05 IST" name="Default test" finished-at="2024-09-27T16:52:11 IST" duration-ms="6110">
+    <test started-at="2024-09-29T18:17:22 IST" name="Test" finished-at="2024-09-29T18:17:30 IST" duration-ms="7721">
       <class name="com.automation.health.demo_healthpage.CureWebpage">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.automation.health.demo_healthpage.CureWebpage@34158c08]" started-at="2024-09-27T16:51:41 IST" name="Setup" finished-at="2024-09-27T16:52:05 IST" duration-ms="23795" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.automation.health.demo_healthpage.CureWebpage@1b955cac]" started-at="2024-09-29T18:17:20 IST" name="Setup" finished-at="2024-09-29T18:17:22 IST" duration-ms="2058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="loginwitvalid()[pri:1, instance:com.automation.health.demo_healthpage.CureWebpage@34158c08]" started-at="2024-09-27T16:52:05 IST" name="loginwitvalid" finished-at="2024-09-27T16:52:11 IST" duration-ms="5972" status="FAIL">
+        <test-method signature="loginwitvalid()[pri:1, instance:com.automation.health.demo_healthpage.CureWebpage@1b955cac]" started-at="2024-09-29T18:17:23 IST" name="loginwitvalid" finished-at="2024-09-29T18:17:30 IST" duration-ms="7592" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -19,10 +19,10 @@
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ac8510e648ad81c048bfc91e977d36da, clickElement {id=f.9C6F539C85401059BE7CE5127F758CDA.d.70F014C0F4771F932955D5F1AEB4D676.e.34}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ashis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55234/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ac8510e648ad81c048bfc91e977d36da)] -> id: sidebar-wrapper]
-Session ID: ac8510e648ad81c048bfc91e977d36da]]>
+Command: [36b1ffaf9998d1a0a8463b761444ad77, clickElement {id=f.4C8DF985B86A2FD2A4604F70D35E0536.d.79D95112F8F21181E78ECA6E4184ACD9.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ashis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60907/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36b1ffaf9998d1a0a8463b761444ad77)] -> id: sidebar-wrapper]
+Session ID: 36b1ffaf9998d1a0a8463b761444ad77]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -30,10 +30,10 @@ Session ID: ac8510e648ad81c048bfc91e977d36da]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ac8510e648ad81c048bfc91e977d36da, clickElement {id=f.9C6F539C85401059BE7CE5127F758CDA.d.70F014C0F4771F932955D5F1AEB4D676.e.34}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ashis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55234}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55234/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ac8510e648ad81c048bfc91e977d36da)] -> id: sidebar-wrapper]
-Session ID: ac8510e648ad81c048bfc91e977d36da
+Command: [36b1ffaf9998d1a0a8463b761444ad77, clickElement {id=f.4C8DF985B86A2FD2A4604F70D35E0536.d.79D95112F8F21181E78ECA6E4184ACD9.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.70, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: C:\Users\ashis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60907}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60907/devtoo..., se:cdpVersion: 129.0.6668.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (36b1ffaf9998d1a0a8463b761444ad77)] -> id: sidebar-wrapper]
+Session ID: 36b1ffaf9998d1a0a8463b761444ad77
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -84,6 +84,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- loginwitvalid -->
       </class> <!-- com.automation.health.demo_healthpage.CureWebpage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
